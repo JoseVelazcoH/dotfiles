@@ -1,3 +1,13 @@
 *.back
 *.tmp
 .DS_Store
+
+
+vscode/*
+!vscode/.config/
+vscode/.config/*
+!vscode/.config/Code/
+vscode/.config/Code/*
+!vscode/.config/Code/User/
+vscode/.config/Code/User/*
+!vscode/.config/Code/User/settings.json
