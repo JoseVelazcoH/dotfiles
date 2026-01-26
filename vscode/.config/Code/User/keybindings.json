@@ -1,0 +1,15 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+insert",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "ctrl+alt+meta+n",
+    "command": "-welcome.showNewFileEntries"
+  },
+  {
+    "key": "ctrl+shift+insert",
+    "command": "explorer.newFile"
+  }
+]
