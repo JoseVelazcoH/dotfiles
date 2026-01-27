@@ -11,5 +11,9 @@
   {
     "key": "ctrl+shift+insert",
     "command": "explorer.newFile"
-  }
+},
+{
+    "key": "ctrl+shift+[Semicolon]",
+    "command": "workbench.action.terminal.newInActiveWorkspace"
+}
 ]
