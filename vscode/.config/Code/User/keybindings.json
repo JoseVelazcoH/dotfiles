@@ -15,5 +15,19 @@
 {
     "key": "ctrl+shift+[Semicolon]",
     "command": "workbench.action.terminal.newInActiveWorkspace"
+},
+{
+    "key": "ctrl+[Equal]",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+},
+{
+    "key": "ctrl+d",
+    "command": "-editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+},
+{
+    "key": "ctrl+d",
+    "command": "editor.action.duplicateSelection"
 }
 ]

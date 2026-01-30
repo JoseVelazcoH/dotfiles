@@ -13,11 +13,12 @@ github.copilot-chat
 github.github-vscode-theme
 jdturner.pdf-code-generator
 josemurilloc.aura-spirit-dracula
-madl0rd.darkest-dungeon-unsaved-icon
+mechatroner.rainbow-csv
 ms-azuretools.vscode-docker
 ms-python.debugpy
 ms-python.python
 ms-python.vscode-pylance
+ms-toolsai.datawrangler
 ms-toolsai.jupyter
 ms-toolsai.jupyter-keymap
 ms-toolsai.jupyter-renderers
@@ -26,7 +27,7 @@ ms-toolsai.vscode-jupyter-slideshow
 ms-vscode-remote.remote-containers
 pkief.material-icon-theme
 prasadgk.pythoncodelens
-raffepaffe.save-saver
 sidthesloth.html5-boilerplate
 subframe7536.custom-ui-style
+whizkydee.material-palenight-theme
 xabikos.javascriptsnippets
