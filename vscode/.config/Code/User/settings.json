@@ -101,7 +101,7 @@
     "emmet.triggerExpansionOnTab": true,
     "update.mode": "none",
     "extensions.ignoreRecommendations": true,
-    "workbench.colorTheme": "Aura Dracula Spirit",
+    "workbench.colorTheme": "One Dark Pro Night Flat",
     "window.menuBarVisibility": "toggle",
     "workbench.editor.highlightModifiedTabs": true,
     "files.autoSave": "off",
@@ -126,7 +126,11 @@
 },
     "python.createEnvironment.trigger": "off",
    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUndefinedVariable": "none",
         "reportMissingImports": "none",
         "reportMissingModuleSource": "none"
+    },
+    "files.exclude": {
+        "**/__pycache__": true
     }
 }

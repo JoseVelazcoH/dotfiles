@@ -31,3 +31,4 @@ sidthesloth.html5-boilerplate
 subframe7536.custom-ui-style
 whizkydee.material-palenight-theme
 xabikos.javascriptsnippets
+zhuangtongfa.material-theme

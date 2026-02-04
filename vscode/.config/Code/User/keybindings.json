@@ -29,5 +29,29 @@
 {
     "key": "ctrl+d",
     "command": "editor.action.duplicateSelection"
+},
+// {
+//     "key": "ctrl+0",
+//     "command": "-workbench.action.focusSideBar"
+// },
+// {
+//     "key": "ctrl+0",
+//     "command": "python.execInTerminal-icon"
+// }
+{
+    "key": "ctrl+0",
+    "command": "runCommands",
+    "args": {
+        "commands": [
+            "workbench.action.terminal.focus",
+            {
+                "command": "workbench.action.terminal.sendSequence",
+                "args": {
+                    "text": "python ${fileBasename}\u000D"
+                }
+            }
+        ]
+    },
+    "when": "editorTextFocus && editorLangId == 'python'"
 }
 ]
