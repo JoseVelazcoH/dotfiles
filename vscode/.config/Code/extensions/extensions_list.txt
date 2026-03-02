@@ -1,3 +1,4 @@
+aaron-bond.better-comments
 aessoft.aessoft-class-autocomplete
 anthropic.claude-code
 burkeholland.simple-react-snippets
