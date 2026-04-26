@@ -1,0 +1,65 @@
+format = """
+$battery\
+$conda\
+${custom.venv}\
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_state\
+$git_status\
+$cmd_duration\
+$line_break\
+$character"""
+
+[username]
+show_always = true
+format = "[$user]($style) "
+style_user = "white bold"
+style_root = "red bold"
+
+[conda]
+format = "[\\($environment\\)]($style) "
+style = "green bold"
+ignore_base = true
+
+[python]
+disabled = true
+
+[custom.venv]
+command = 'basename "$VIRTUAL_ENV"'
+when = '[ -n "$VIRTUAL_ENV" ]'
+format = "[\\($output\\)]($style) "
+style = "yellow bold"
+shell = ["bash", "--noprofile", "--norc"]
+
+[directory]
+read_only = " "
+
+[battery]
+full_symbol = "•"
+charging_symbol = "⇡"
+discharging_symbol = "⇣"
+
+[git_branch]
+format = "[$branch]($style)"
+style = "bright-black"
+
+[git_status]
+format = "[[(*$conflicted$untracked$modified$staged$renamed$deleted)](bright-black) ($ahead_behind$stashed)]($style)"
+style = "cyan"
+conflicted = "​"
+untracked = "​"
+modified = "​"
+staged = "​"
+renamed = "​"
+deleted = "​"
+stashed = "≡"
+
+[git_state]
+format = '\([$state( $progress_current/$progress_total)]($style)\) '
+style = "bright-black"
+
+[cmd_duration]
+format = "[$duration]($style) "
+style = "yellow"
