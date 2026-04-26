@@ -9,9 +9,9 @@ drcika.apc-extension
 dsznajder.es7-react-js-snippets
 ecmel.vscode-html-css
 gingerturtle.todo-to-issue-linker
-github.copilot
 github.copilot-chat
 github.github-vscode-theme
+github.vscode-github-actions
 jdturner.pdf-code-generator
 josemurilloc.aura-spirit-dracula
 mechatroner.rainbow-csv
@@ -28,7 +28,9 @@ ms-toolsai.vscode-jupyter-slideshow
 ms-vscode-remote.remote-containers
 pkief.material-icon-theme
 prasadgk.pythoncodelens
+redhat.vscode-yaml
 sidthesloth.html5-boilerplate
+skellock.just
 subframe7536.custom-ui-style
 whizkydee.material-palenight-theme
 xabikos.javascriptsnippets
